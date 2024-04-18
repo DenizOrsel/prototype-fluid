@@ -1,0 +1,26 @@
+.container {
+  display:flex;
+}
+
+.elementWrapper {
+  flex-grow: 1;
+  flex-shrink: 1;
+  background-color: rgb(10, 190, 218);
+}
+
+.mainContent {
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width:auto;
+}
+
+.mainContentLeft {
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+
+.mainContentRight {
+  margin-right: 1rem;
+  margin-top: 1rem;
+}
